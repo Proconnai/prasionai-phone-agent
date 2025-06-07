@@ -1,0 +1,15 @@
+framework: crewai
+topic: AI Phone Assistant
+roles:
+  intake_agent:
+    backstory: Patient-facing AI voice agent.
+    goal: Assist and respond via voice call.
+    role: Agent
+    tasks:
+      handle_call:
+        description: Respond to caller via TTS and STT.
+        expected_output: Call completed.
+    tools:
+      - SpeechService
+      - TwilioService
+      - EmailForwarder

@@ -1,0 +1,14 @@
+[project]
+name = "praisonai-agent"
+version = "0.1.0"
+dependencies = [
+    "fastapi",
+    "uvicorn",
+    "openai",
+    "twilio",
+    "requests",
+    "python-dotenv",
+    "praisonai"
+]
+[tool.uv]
+virtualenvs.in-project = true
