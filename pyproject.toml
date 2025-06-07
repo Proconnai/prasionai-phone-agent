@@ -8,7 +8,7 @@ dependencies = [
     "twilio",
     "requests",
     "python-dotenv",
-    "praisonai"
+    "praisonai",
+    "elevenlabs"
 ]
-[tool.uv]
-virtualenvs.in-project = true
+# Removed: virtualenvs.in-project = true
