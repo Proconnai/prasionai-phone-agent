@@ -2,4 +2,19 @@ __pycache__/
 *.pyc
 *.log
 .env
+.env.*
 venv/
+.venv/
+.DS_Store
+.mypy_cache/
+.pytest_cache/
+.coverage
+.vscode/
+.idea/
+dist/
+build/
+*.egg-info/
+# Test output
+htmlcov/
+coverage.xml
+*.sqlite3
